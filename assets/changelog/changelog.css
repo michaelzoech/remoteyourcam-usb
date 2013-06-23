@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body
+{
+  padding: 0px;
+  margin-top: 4px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  margin-left: 10px;
+  border: 0px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+h2
+{
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 5px;
+  paddin-bottom: 0;
+}
+
+h3 {
+  font-size: 16px;
+  text-align: left;
+  padding: 0px 5px 0px 0px;
+  margin: 0px 5px 0px 0px;
+}
+
+p
+{
+  margin: 0px;
+}
+
+li
+{
+  padding: 5px 0px 0px 0px;
+  margin: 0px;
+}
+
+ul
+{
+  padding-left: 25px;
+  padding-right: 10px;
+  margin: 0px;
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2013 Nils Assbeck, Guersel Ayaz and Michael Zoech
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <TableRow>
+
+    <com.remoteyourcam.usb.PropertyToggle
+      android:id="@+id/liveViewToggle"
+      style="@style/GridPropertyToggle"
+      android:textOff="Live"
+      android:textOn="Live"/>
+
+    <com.remoteyourcam.usb.PropertyToggle
+      android:id="@+id/histogramToggle"
+      style="@style/GridPropertyToggle"
+      android:textOff="Hist"
+      android:textOn="Hist"/>
+
+    <com.remoteyourcam.usb.PropertyToggle
+      android:id="@+id/driveLensToggle"
+      style="@style/GridPropertyToggle"
+      android:textOff="Lens"
+      android:textOn="Lens"/>
+  </TableRow>
+
+  <TableRow>
+
+    <com.remoteyourcam.usb.PropertyToggle
+      android:id="@+id/shutterSpeedToggle"
+      style="@style/GridPropertyToggle"/>
+
+    <com.remoteyourcam.usb.PropertyToggle
+      android:id="@+id/apertureValueToggle"
+      style="@style/GridPropertyToggle"/>
+
+    <com.remoteyourcam.usb.PropertyToggle
+      android:id="@+id/isoSpeedToggle"
+      style="@style/GridPropertyToggle"/>
+  </TableRow>
+
+  <TableRow>
+
+    <com.remoteyourcam.usb.PropertyToggle
+      android:id="@+id/whitebalanceToggle"
+      style="@style/GridPropertyToggle"/>
+
+    <com.remoteyourcam.usb.PropertyToggle
+      android:id="@+id/colorTemperatureToggle"
+      style="@style/GridPropertyToggle"/>
+
+    <com.remoteyourcam.usb.PropertyToggle
+      android:id="@+id/pictureStyleToggle"
+      style="@style/GridPropertyToggle"/>
+  </TableRow>
+
+  <TableRow>
+
+    <com.remoteyourcam.usb.PropertyToggle
+      android:id="@+id/meteringModeToggle"
+      style="@style/GridPropertyToggle"/>
+
+    <com.remoteyourcam.usb.PropertyToggle
+      android:id="@+id/focusMeteringModeToggle"
+      style="@style/GridPropertyToggle"/>
+
+    <com.remoteyourcam.usb.PropertyToggle
+      android:id="@+id/focusPointsToggle"
+      style="@style/GridPropertyToggle"
+      android:text="@string/af_label"
+      android:textOff="@string/af_label"
+      android:textOn="@string/af_label"/>
+  </TableRow>
+
+  <TableRow>
+
+    <com.remoteyourcam.usb.PropertyToggle
+      android:id="@+id/exposureCompensationToggle"
+      style="@style/GridPropertyToggle"/>
+
+    <View
+      android:layout_width="@dimen/gridPropertyWidth"
+      android:layout_height="@dimen/gridPropertyHeight"/>
+
+    <ImageView
+      android:id="@+id/shootingModeView"
+      android:layout_width="@dimen/gridPropertyWidth"
+      android:layout_height="@dimen/gridPropertyHeight"
+      android:gravity="center"/>
+  </TableRow>
+
+</TableLayout>
